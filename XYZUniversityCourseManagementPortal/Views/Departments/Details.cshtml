@@ -1,0 +1,23 @@
+@model XYZUniversityCourseManagementPortal.Models.Department
+
+@{
+    ViewData["Title"] = "Department Details";
+    ViewBag.Info = "Department information";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Info</p>
+
+<div>
+    <dl>
+        <dt>ID:</dt>
+        <dd>@Model.Id</dd>
+        <dt>Name:</dt>
+        <dd>@Model.Name</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

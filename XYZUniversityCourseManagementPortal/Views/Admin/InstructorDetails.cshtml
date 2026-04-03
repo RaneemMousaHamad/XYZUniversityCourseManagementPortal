@@ -1,0 +1,41 @@
+@model XYZUniversityCourseManagementPortal.Models.Instructor
+
+@{
+    ViewData["Title"] = "Instructor Details";
+    ViewBag.Info = "Instructor information";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Info</p>
+
+<div>
+    <dl>
+        <dt>ID:</dt>
+        <dd>@Model.Id</dd>
+        <dt>First Name:</dt>
+        <dd>@Model.FirstName</dd>
+        <dt>Last Name:</dt>
+        <dd>@Model.LastName</dd>
+        <dt>Department:</dt>
+        <dd>@(Model.Department?.Name ?? "N/A")</dd>
+        <dt>Courses:</dt>
+        <dd>
+            @if (Model.InstructorCourses != null && Model.InstructorCourses.Any())
+            {
+                @foreach (var ic in Model.InstructorCourses)
+                {
+                    <span>@(ic.InstructorCourse_course?.Name ?? "")</span>
+                }
+            }
+            else
+            {
+                <span>No courses</span>
+            }
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="EditInstructor" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Instructors">Back to List</a>
+</div>

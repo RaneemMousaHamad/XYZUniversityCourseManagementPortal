@@ -1,0 +1,50 @@
+    @model XYZUniversityCourseManagementPortal.Models.Instructor
+
+@{
+    ViewData["Title"] = "Create Instructor";
+    ViewBag.Message = "Add new instructor";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Message</p>
+
+<form asp-action="CreateInstructor">
+    <div asp-validation-summary="ModelOnly"></div>
+    
+    <div>
+        <label asp-for="FirstName">First Name:</label>
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    
+    <div>
+        <label asp-for="LastName">Last Name:</label>
+        <input asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+    
+    <div>
+        <label asp-for="DepartmentId">Department:</label>
+        <select asp-for="DepartmentId" asp-items="ViewBag.DepartmentId">
+            <option value="">-- Select --</option>
+        </select>
+        <span asp-validation-for="DepartmentId"></span>
+    </div>
+    
+    <div>
+        <label asp-for="IdentityUserId">User:</label>
+        <select asp-for="IdentityUserId" asp-items="ViewBag.Users">
+            <option value="">-- Select --</option>
+        </select>
+        <span asp-validation-for="IdentityUserId"></span>
+    </div>
+    
+    <div>
+        <input type="submit" value="Create" />
+        <a asp-action="Instructors">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

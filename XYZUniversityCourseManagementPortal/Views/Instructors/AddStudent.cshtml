@@ -1,0 +1,58 @@
+@model XYZUniversityCourseManagementPortal.Models.Enrollment
+
+@{
+    ViewData["Title"] = "Enroll Student";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Enroll Student to Course</h2>
+            <p class="text-muted">Add a student to: <strong>@ViewBag.CourseName</strong></p>
+        </div>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="AddStudent" method="post">
+                <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+                @Html.AntiForgeryToken()
+                
+                <div class="mb-3">
+                    <label for="studentId" class="form-label">Select Student:</label>
+                    <select name="studentId" id="studentId" class="form-select" required>
+                        <option value="">-- Select Student --</option>
+                        @if (ViewBag.StudentId != null)
+                        {
+                            @foreach (var item in (SelectList)ViewBag.StudentId)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        }
+                    </select>
+                    <div class="form-text">Choose a student to enroll in this course.</div>
+                </div>
+                
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">Enroll Student</button>
+                    <a asp-action="CourseStudents" asp-route-courseId="@ViewBag.CourseId" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (ViewBag.StudentId == null || ((SelectList)ViewBag.StudentId).Count() == 0)
+    {
+        <div class="alert alert-warning mt-3">
+            <p class="mb-0"><strong>No available students.</strong> All students may already be enrolled in this course, or there are no students in the system.</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,35 @@
+@model XYZUniversityCourseManagementPortal.Models.Course
+
+@{
+    ViewData["Title"] = "Edit Course";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly"></div>
+    <input type="hidden" asp-for="Id" />
+    
+    <div>
+        <label asp-for="Name">Course Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    
+    <div>
+        <label asp-for="DepartmentId">Department:</label>
+        <select asp-for="DepartmentId" asp-items="ViewBag.DepartmentId">
+            <option value="">-- Select --</option>
+        </select>
+        <span asp-validation-for="DepartmentId"></span>
+    </div>
+    
+    <div>
+        <input type="submit" value="Save" />
+        <a asp-action="Index">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

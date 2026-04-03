@@ -1,0 +1,50 @@
+@model XYZUniversityCourseManagementPortal.Models.Grade
+
+@{
+    ViewData["Title"] = "Add/Edit Grade";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Add/Edit Grade</h2>
+            <p class="text-muted">
+                Grade for <strong>@ViewBag.StudentName</strong> in <strong>@ViewBag.CourseName</strong>
+            </p>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="AddGrade" method="post">
+                <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+                <input type="hidden" name="studentId" value="@ViewBag.StudentId" />
+                @Html.AntiForgeryToken()
+                
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                
+                <div class="mb-3">
+                    <label asp-for="Mark" class="form-label">Grade (0-100):</label>
+                    <input asp-for="Mark" 
+                           type="number" 
+                           min="0" 
+                           max="100" 
+                           class="form-control" 
+                           style="max-width: 200px;"
+                           required />
+                    <span asp-validation-for="Mark" class="text-danger"></span>
+                    <div class="form-text">Enter a grade between 0 and 100.</div>
+                </div>
+                
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">Save Grade</button>
+                    <a asp-action="CourseStudents" asp-route-courseId="@ViewBag.CourseId" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

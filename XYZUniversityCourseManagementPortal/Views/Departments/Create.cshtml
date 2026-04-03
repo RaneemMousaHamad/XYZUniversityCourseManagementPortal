@@ -1,0 +1,28 @@
+@model XYZUniversityCourseManagementPortal.Models.Department
+
+@{
+    ViewData["Title"] = "Create Department";
+    ViewBag.Info = "Add new department";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Info</p>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly"></div>
+    
+    <div>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    
+    <div>
+        <input type="submit" value="Create" />
+        <a asp-action="Index">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,64 @@
+@model XYZUniversityCourseManagementPortal.Models.Course
+
+@{
+    ViewData["Title"] = "Course Details";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Course Details</h2>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Course ID:</dt>
+                <dd class="col-sm-9">@Model.Id</dd>
+
+                <dt class="col-sm-3">Course Name:</dt>
+                <dd class="col-sm-9"><strong>@Model.Name</strong></dd>
+
+                <dt class="col-sm-3">Department:</dt>
+                <dd class="col-sm-9">@(Model.Department?.Name ?? "N/A")</dd>
+
+                <dt class="col-sm-3">Instructors:</dt>
+                <dd class="col-sm-9">
+                    @if (Model.InstructorCourses != null && Model.InstructorCourses.Any())
+                    {
+                        <div class="mb-2">
+                            @foreach (var ic in Model.InstructorCourses)
+                            {
+                                <span class="badge bg-primary me-2 mb-2">
+                                    @(ic.InstructorCourse_instructor?.FullName ?? "Unknown")
+                                </span>
+                            }
+                        </div>
+                        <p class="text-muted small">Total: @Model.InstructorCourses.Count() instructor(s)</p>
+                    }
+                    else
+                    {
+                        <span class="text-muted">No instructors assigned</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="AssignInstructors" asp-route-id="@Model.Id" class="btn btn-primary">
+            <i class="bi bi-person-plus"></i> Manage Instructors
+        </a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit Course</a>
+        <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+    </div>
+</div>

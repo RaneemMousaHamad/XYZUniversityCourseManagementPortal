@@ -1,0 +1,41 @@
+@model IEnumerable<XYZUniversityCourseManagementPortal.Models.Enrollment>
+
+@{
+    ViewData["Title"] = "My Courses";
+    ViewBag.Message = "Your enrolled courses";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Message</p>
+
+<table class="table">
+    <tr>
+        <th>Course ID</th>
+        <th>Course Name</th>
+        <th>Department</th>
+        <th>Grade</th>
+    </tr>
+    @foreach (var enrollment in Model)
+    {
+        <tr>
+            <td>@enrollment.Enrollment_course?.Id</td>
+            <td>@enrollment.Enrollment_course?.Name</td>
+            <td>@(enrollment.Enrollment_course?.Department?.Name ?? "N/A")</td>
+            <td>
+                @if (enrollment.Grade != null)
+                {
+                    <span>@enrollment.Grade.Mark</span>
+                }
+                else
+                {
+                    <span>No Grade</span>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+@if (!Model.Any())
+{
+    <p>You are not enrolled in any courses.</p>
+}

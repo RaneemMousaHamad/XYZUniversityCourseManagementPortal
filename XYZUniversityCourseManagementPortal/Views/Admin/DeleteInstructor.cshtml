@@ -1,0 +1,28 @@
+@model XYZUniversityCourseManagementPortal.Models.Instructor
+
+@{
+    ViewData["Title"] = "Delete Instructor";
+    ViewBag.Warning = "Are you sure?";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Warning</p>
+
+<div>
+    <dl>
+        <dt>ID:</dt>
+        <dd>@Model.Id</dd>
+        <dt>First Name:</dt>
+        <dd>@Model.FirstName</dd>
+        <dt>Last Name:</dt>
+        <dd>@Model.LastName</dd>
+        <dt>Department:</dt>
+        <dd>@(Model.Department?.Name ?? "N/A")</dd>
+    </dl>
+</div>
+
+<form asp-action="DeleteInstructor">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Delete" />
+    <a asp-action="Instructors">Back to List</a>
+</form>

@@ -1,0 +1,129 @@
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@model List<IdentityUser>
+
+@{
+    ViewData["Title"] = "User Management";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="mb-3">User Management</h2>
+            <p class="text-muted">Assign <strong>Student</strong> or <strong>Instructor</strong> roles to users. <strong>Only these two roles</strong> can be assigned.</p>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="alert alert-info">
+        <strong>Role Assignment Rules:</strong>
+        <ul class="mb-0">
+            <li>You can <strong>only</strong> assign <strong>Student</strong> or <strong>Instructor</strong> roles</li>
+            <li>Admin role is protected and cannot be changed or deleted</li>
+            <li>There can only be one Admin in the system</li>
+        </ul>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Email</th>
+                            <th>Current Role</th>
+                            <th>Assign Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            var roles = await UserManager.GetRolesAsync(user);
+                            var currentRole = roles.FirstOrDefault() ?? "No Role";
+                            var isAdmin = currentRole == "Admin";
+
+                            <tr>
+                                <td>
+                                    <strong>@user.Email</strong>
+                                    @if (isAdmin)
+                                    {
+                                        <span class="badge bg-danger ms-2">Admin (Protected)</span>
+                                    }
+                                </td>
+                                <td>
+                                    @if (isAdmin)
+                                    {
+                                        <span class="badge bg-danger">Admin</span>
+                                    }
+                                    else if (currentRole == "Instructor")
+                                    {
+                                        <span class="badge bg-primary">Instructor</span>
+                                    }
+                                    else if (currentRole == "Student")
+                                    {
+                                        <span class="badge bg-success">Student</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">@currentRole</span>
+                                    }
+                                </td>
+                                <td>
+                                    @if (isAdmin)
+                                    {
+                                        <span class="text-muted">Admin role cannot be changed</span>
+                                    }
+                                    else
+                                    {
+                                        <form method="post" asp-action="AssignRole" class="d-inline-flex gap-2">
+                                            <input type="hidden" name="userId" value="@user.Id" />
+                                            <select name="role" class="form-select form-select-sm" style="width: auto;" required>
+                                                <option value="" disabled>-- Select Role --</option>
+                                                <option value="Student" selected="@(currentRole == "Student")">Student</option>
+                                                <option value="Instructor" selected="@(currentRole == "Instructor")">Instructor</option>
+                                            </select>
+                                            <button type="submit" class="btn btn-sm btn-primary">Assign</button>
+                                        </form>
+                                    }
+                                </td>
+                                <td>
+                                    @if (isAdmin)
+                                    {
+                                        <span class="text-muted">Cannot delete Admin</span>
+                                    }
+                                    else
+                                    {
+                                        <form method="post" asp-action="DeleteUser" class="d-inline">
+                                            @Html.AntiForgeryToken()
+                                            <input type="hidden" name="userId" value="@user.Id" />
+                                            <button type="submit" class="btn btn-sm btn-danger" 
+                                                    onclick="return confirm('Are you sure you want to delete user @user.Email?');">
+                                                Delete
+                                            </button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

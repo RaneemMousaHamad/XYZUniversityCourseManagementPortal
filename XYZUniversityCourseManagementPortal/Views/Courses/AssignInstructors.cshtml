@@ -1,0 +1,106 @@
+@model XYZUniversityCourseManagementPortal.Models.Course
+
+@{
+    ViewData["Title"] = "Assign Instructors to Course";
+    var course = ViewBag.Course as XYZUniversityCourseManagementPortal.Models.Course;
+    var allInstructors = ViewBag.AllInstructors as List<XYZUniversityCourseManagementPortal.Models.Instructor>;
+    var assignedInstructorIds = ViewBag.AssignedInstructorIds as List<int> ?? new List<int>();
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Assign Instructors to Course</h2>
+            <p class="text-muted">Select instructors to assign to: <strong>@course?.Name</strong></p>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="AssignInstructors" method="post">
+                <input type="hidden" name="id" value="@course?.Id" />
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <h5>Select Instructors:</h5>
+                    <p class="text-muted small">You can select multiple instructors for this course.</p>
+                </div>
+
+                @if (allInstructors != null && allInstructors.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th style="width: 50px;">Select</th>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var instructor in allInstructors)
+                                {
+                                    var isChecked = assignedInstructorIds.Contains(instructor.Id);
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" 
+                                                   name="selectedInstructorIds" 
+                                                   value="@instructor.Id" 
+                                                   @(isChecked ? "checked" : "") 
+                                                   class="form-check-input" />
+                                        </td>
+                                        <td>
+                                            <label class="form-check-label" style="cursor: pointer;">
+                                                @instructor.FullName
+                                            </label>
+                                        </td>
+                                        <td>@(instructor.Department?.Name ?? "N/A")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-info">
+                        <p>No instructors available. Please create instructors first.</p>
+                        <a asp-controller="Admin" asp-action="CreateInstructor" class="btn btn-sm btn-primary">Create Instructor</a>
+                    </div>
+                }
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">Save Assignments</button>
+                    <a asp-action="Details" asp-route-id="@course?.Id" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Make entire row clickable for better UX
+        document.querySelectorAll('tbody tr').forEach(row => {
+            const checkbox = row.querySelector('input[type="checkbox"]');
+            if (checkbox) {
+                row.style.cursor = 'pointer';
+                row.addEventListener('click', function(e) {
+                    if (e.target.type !== 'checkbox') {
+                        checkbox.checked = !checkbox.checked;
+                    }
+                });
+            }
+        });
+    </script>
+}
+
+

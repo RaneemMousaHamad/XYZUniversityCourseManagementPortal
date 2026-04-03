@@ -1,0 +1,93 @@
+@model IEnumerable<XYZUniversityCourseManagementPortal.Models.Enrollment>
+
+@{
+    ViewData["Title"] = "Course Students";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2>Course Students</h2>
+            <p class="text-muted">Manage students enrolled in: <strong>@ViewBag.CourseName</strong></p>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="mb-3">
+        <a asp-action="AddStudent" asp-route-courseId="@ViewBag.CourseId" class="btn btn-primary">
+            <i class="bi bi-person-plus"></i> Enroll Student
+        </a>
+        <a asp-action="MyCourses" class="btn btn-outline-secondary">Back to My Courses</a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            @if (Model != null && Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Student Name</th>
+                                <th>Grade</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var enrollment in Model)
+                            {
+                                <tr>
+                                    <td>@enrollment.Enrollment_student?.Id</td>
+                                    <td><strong>@enrollment.Enrollment_student?.FullName</strong></td>
+                                    <td>
+                                        @if (enrollment.Grade != null)
+                                        {
+                                            <span class="badge bg-success">@enrollment.Grade.Mark</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">No Grade</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a asp-action="AddGrade" 
+                                           asp-route-courseId="@enrollment.CourseId" 
+                                           asp-route-studentId="@enrollment.StudentId" 
+                                           class="btn btn-sm btn-outline-primary">
+                                            @(enrollment.Grade != null ? "Edit Grade" : "Add Grade")
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-3">
+                    <p class="text-muted"><strong>Total Students:</strong> @Model.Count()</p>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <p class="mb-0">No students enrolled in this course yet. Click "Enroll Student" to add students.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

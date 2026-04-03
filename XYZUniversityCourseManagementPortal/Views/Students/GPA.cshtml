@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "My GPA";
+    ViewBag.Message = "Your Grade Point Average";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>@ViewBag.Message</p>
+
+@if (ViewBag.CoursesWithGrades != null && ViewBag.CoursesWithGrades > 0)
+{
+    <div>
+        <h3>GPA: @ViewBag.GPA</h3>
+        <p>Total Courses: @ViewBag.TotalCredits</p>
+    </div>
+}
+else
+{
+    <p>You do not have any graded courses yet.</p>
+}

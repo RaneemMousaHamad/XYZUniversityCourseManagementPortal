@@ -1,0 +1,808 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\obj\\debug\\net10.0\\xyzuniversitycoursemanagementportal.csproj.filelistabsolute.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\obj\\debug\\net10.0\\xyzuniversitycoursemanagementportal.csproj.filelistabsolute.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\obj\\debug\\net10.0\\xyzuniversitycoursemanagementportal.csproj.buildwithskipanalyzers||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\obj\\debug\\net10.0\\xyzuniversitycoursemanagementportal.csproj.buildwithskipanalyzers||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\api\\coursesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\api\\coursesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\home\\apicatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\home\\apicatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\instructorcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\instructorcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\fixdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\fixdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\admin\\instructors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\admin\\instructors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\admin\\instructordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\admin\\instructordetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\admin\\createinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\admin\\createinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\students\\gpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\students\\gpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\views\\students\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\views\\students\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\migrations\\20260129105020_fullnameadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\migrations\\20260129105020_fullnameadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|c:\\users\\ranee\\source\\repos\\xyzuniversitycoursemanagementportal\\xyzuniversitycoursemanagementportal\\fixdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{3688C4BA-4C12-5766-4B9E-77C163EABD74}|XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj|solutionrelative:xyzuniversitycoursemanagementportal\\fixdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 167,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XYZUniversityCourseManagementPortal.csproj.nuget.g.props",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props [Read Only]",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.props [Read Only]",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBkAAABgAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-25T19:33:51.864Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:38:03.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T12:33:22.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XYZUniversityCourseManagementPortal.csproj.FileListAbsolute.txt",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.FileListAbsolute.txt",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.FileListAbsolute.txt",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.FileListAbsolute.txt",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.FileListAbsolute.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-25T19:35:33.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XYZUniversityCourseManagementPortal.csproj.BuildWithSkipAnalyzers",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.BuildWithSkipAnalyzers",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.BuildWithSkipAnalyzers",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.BuildWithSkipAnalyzers",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\obj\\Debug\\net10.0\\XYZUniversityCourseManagementPortal.csproj.BuildWithSkipAnalyzers",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-25T19:35:29.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XYZUniversityCourseManagementPortal.csproj.nuget.g.targets",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets [Read Only]",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\obj\\XYZUniversityCourseManagementPortal.csproj.nuget.g.targets [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-25T19:35:15.536Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XYZUniversityCourseManagementPortal.csproj.user",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-03-25T19:35:09.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\README.md",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\README.md",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\README.md",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-25T19:29:46.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T06:30:05.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Course.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:44:16.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T12:26:25.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "XYZUniversityCourseManagementPortal.csproj",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-16T13:21:25.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiCatalog.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Home\\ApiCatalog.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Home\\ApiCatalog.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Home\\ApiCatalog.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Home\\ApiCatalog.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T13:23:09.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoursesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\Api\\CoursesApiController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\Api\\CoursesApiController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\Api\\CoursesApiController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\Api\\CoursesApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T20:03:43.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T18:06:05.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InstructorCourse.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\InstructorCourse.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\InstructorCourse.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\InstructorCourse.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\InstructorCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:56:17.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:57:23.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Instructor.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:19:55.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:09:37.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBJwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:23:22.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FixDatabase.sql ",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\FixDatabase.sql",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\FixDatabase.sql",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\FixDatabase.sql",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\FixDatabase.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-29T11:36:56.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T12:26:03.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Instructors.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\Instructors.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Admin\\Instructors.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\Instructors.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Admin\\Instructors.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T15:05:28.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InstructorDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\InstructorDetails.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Admin\\InstructorDetails.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\InstructorDetails.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Admin\\InstructorDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T15:51:09.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateInstructor.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\CreateInstructor.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Admin\\CreateInstructor.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Admin\\CreateInstructor.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Admin\\CreateInstructor.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T15:08:55.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Program.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Program.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:40:29.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Student.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:33:07.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Department.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:19:35.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Enrollment.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:55:45.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\appsettings.json",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\appsettings.json",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\appsettings.json",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T18:31:01.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20260129105020_FullNameAdded.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20260129105020_FullNameAdded.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20260129105020_FullNameAdded.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20260129105020_FullNameAdded.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20260129105020_FullNameAdded.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:50:21.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAtwNcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:20:16.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InstructorsController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\InstructorsController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\InstructorsController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\InstructorsController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\InstructorsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAzwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:37:29.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T10:05:08.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T14:52:59.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:11:40.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Grade.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Models\\Grade.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Models\\Grade.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Models\\Grade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:33:53.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GPA.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Students\\GPA.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Students\\GPA.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Students\\GPA.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Students\\GPA.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T07:26:53.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MyCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Students\\MyCourses.cshtml",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Views\\Students\\MyCourses.cshtml",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Views\\Students\\MyCourses.cshtml",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Views\\Students\\MyCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-26T07:26:59.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20251225201319_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20251225201319_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T20:13:20.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251225194538_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20251225194538_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T19:45:39.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20251225193558_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20251225193558_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T19:35:58.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20251225192615_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20251225192615_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T19:26:15.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251225192302_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Migrations\\20251225192302_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T19:23:03.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20251225185659_initial.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs",
+              "RelativeDocumentMoniker": "XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\XYZUniversityCourseManagementPortal\\XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs",
+              "RelativeToolTip": "XYZUniversityCourseManagementPortal\\Data\\Migrations\\20251225185659_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T18:56:59.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Athur\u0026Athun\\Athur\u0026Athun\\Program.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Program.cs",
+              "RelativeToolTip": "..\\Athur\u0026Athun\\Athur\u0026Athun\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T07:54:21.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\Athur\u0026Athun\\Athur\u0026Athun\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ranee\\source\\repos\\Athur\u0026Athun\\Athur\u0026Athun\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "..\\Athur\u0026Athun\\Athur\u0026Athun\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T07:54:20.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

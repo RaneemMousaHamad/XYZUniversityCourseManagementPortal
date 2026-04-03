@@ -1,0 +1,97 @@
+﻿@model IEnumerable<XYZUniversityCourseManagementPortal.Models.Course>
+
+@{
+    ViewData["Title"] = "XYZ University - Course Catalog";
+    ViewBag.Info = "Browse all available courses";
+}
+
+<div class="text-center mb-4">
+    <h1 class="display-4">@ViewBag.WelcomeMessage</h1>
+    <p class="lead">@ViewBag.Info</p>
+    <p class="text-muted">Total Courses: @ViewBag.CourseCount</p>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-header bg-light">
+        <h2 class="h4 mb-0" style="color: var(--uni-plum);">Available Courses</h2>
+        <small class="text-muted">Loaded live from the Web API without reloading the page.</small>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table id="coursesTable" class="table table-striped table-hover align-middle mb-0">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">CourseId</th>
+                        <th scope="col">Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="text-center text-muted">
+                            Loading courses&hellip;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="coursesError" class="text-danger mt-2"></div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        async function fetchExternalCourses() {
+            const apiUrl = 'https://localhost:7230/api/Courses';
+
+            const tableBody = document.querySelector('#coursesTable tbody');
+            const tableElement = document.getElementById('coursesTable');
+            const loader = document.getElementById('apiLoading');     // loader div like your friend
+            const errorDiv = document.getElementById('coursesError'); // error message div
+
+            try {
+                // show loader, hide table
+                if (loader) loader.style.display = 'block';
+                tableElement.style.display = 'none';
+                errorDiv.textContent = '';
+
+                const response = await fetch(apiUrl);
+                if (!response.ok) throw new Error('API request failed: HTTP ' + response.status);
+
+                const data = await response.json();
+
+                // hide loader, show table
+                if (loader) loader.style.display = 'none';
+                tableElement.style.display = 'table';
+                tableBody.innerHTML = '';
+
+                if (!data || data.length === 0) {
+                    tableBody.innerHTML = `
+                        <tr>
+                            <td colspan="2" class="text-center text-muted">No courses found.</td>
+                        </tr>`;
+                    return;
+                }
+
+                data.forEach(course => {
+                    tableBody.innerHTML += `
+                        <tr>
+                            <td class="text-muted">${course.id}</td>
+                            <td>${course.name}</td>
+                        </tr>`;
+                });
+
+            } catch (error) {
+                console.error('Error fetching API:', error);
+
+                if (loader) loader.style.display = 'none';
+                tableElement.style.display = 'none';
+
+                errorDiv.innerHTML =
+                    '<p class="text-danger">Error: Could not connect to the API project. Check the Port or CORS settings.</p>';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchExternalCourses);
+    </script>
+
+}

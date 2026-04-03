@@ -1,0 +1,241 @@
+/* Red and Soft White Simple Design */
+:root {
+  --primary-red: #dc3545;
+  --soft-white: #fafafa;
+  --white: #ffffff;
+  --red-dark: #c82333;
+  --red-light: #e85d75;
+}
+
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: var(--soft-white);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #000000;
+}
+
+/* Navigation - Red Background with Black Text */
+.navbar {
+  background-color: var(--primary-red) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #333333 !important;
+  opacity: 0.9;
+}
+
+.navbar-toggler {
+  border-color: var(--white);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Buttons - Red Theme */
+.btn-primary {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--red-dark);
+  border-color: var(--red-dark);
+  color: var(--white);
+}
+
+.btn-danger {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+}
+
+.btn-outline-primary {
+  color: var(--primary-red);
+  border-color: var(--primary-red);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+  color: var(--white);
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem var(--white), 0 0 0 0.25rem var(--red-light);
+}
+
+/* Cards - White Background */
+.card {
+  background-color: var(--white);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.15) !important;
+}
+
+.card-header {
+  background-color: var(--primary-red);
+  color: #000000;
+  border-bottom: none;
+  font-weight: 600;
+}
+
+/* Tables - Clean White */
+.table {
+  background-color: var(--white);
+  border-radius: 4px;
+}
+
+.table thead th {
+  background-color: var(--soft-white);
+  border-bottom: 2px solid var(--primary-red);
+  font-weight: 600;
+  color: #000000;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #fff5f5;
+}
+
+.table tbody td {
+  color: #000000;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.875rem;
+  padding: 0.35em 0.65em;
+}
+
+.bg-primary {
+  background-color: var(--primary-red) !important;
+}
+
+.bg-danger {
+  background-color: var(--primary-red) !important;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+/* Alerts */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: var(--primary-red);
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.form-select:focus {
+  border-color: var(--primary-red);
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--white);
+  border-top: 2px solid var(--primary-red);
+  color: #666;
+}
+
+.footer a {
+  color: var(--primary-red);
+}
+
+.footer a:hover {
+  color: var(--red-dark);
+}
+
+/* Links */
+a {
+  color: var(--primary-red);
+}
+
+a:hover {
+  color: var(--red-dark);
+}
+
+/* Text Colors */
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
+p, span, div, label {
+  color: #000000;
+}
+
+.text-muted {
+  color: #666666 !important;
+}
+
+/* Container */
+.container-fluid {
+  padding: 1.5rem;
+  background-color: var(--soft-white);
+}
+
+/* Form placeholders */
+.form-floating > .form-control-plaintext::placeholder, 
+.form-floating > .form-control::placeholder {
+  color: #999;
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, 
+.form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 1rem;
+  }
+}
