@@ -1,6 +1,5 @@
 # README for XYZUniversityCourseManagementPortal
 
-```markdown
 # XYZ University Course Management Portal
 
 ## 📚 Overview
@@ -271,7 +270,7 @@ GitHub: [@RaneemMousaHamad](https://github.com/RaneemMousaHamad)
 
 For questions or issues, please:
 - Open an [Issue](https://github.com/RaneemMousaHamad/XYZUniversityCourseManagementPortal/issues)
-- Email: raneem@example.com
+- Email: raneemhamad71@gmail.com
 
 ---
 
