@@ -6,7 +6,7 @@
 
 **XYZ University Course Management Portal** is a comprehensive web application built with **ASP.NET Core MVC** that enables students, instructors, and administrators to manage university courses, enrollments, and academic records efficiently.
 
-This project implements a full-stack solution with a **RESTful WebAPI** backend and a responsive web portal frontend.
+This project implements a full-stack solution with a **RESTful WebAPI** backend and a responsive web portal frontend. 
 
 ---
 
